@@ -22,9 +22,10 @@ I2C Write:
 A write cycle consists of addressing the device, followed by the data register to write, then the data for that register.  The internal register index is updated between each data byte and multiple registers can be written in the same cycle.  In the event there is more data written than there are registers (register overrun), the additional data are simply ignored.
 
 I2C Read:
+
 	<St><R+7-bit I2C ADDR><A><Status Register Read><A><Sp>
 
-An read cycle consists of addressing the device and requesting 1 byte of data.  Only the status register is returned.
+A read cycle consists of addressing the device and requesting 1 byte of data.  Only the status register is returned.
 ----------
 There are 5 registers.
 
