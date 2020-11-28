@@ -8,7 +8,7 @@ https://hackaday.io/project/176007-i2c-stepper-contoller
 I2C-IO board project here:
 https://hackaday.io/project/174984-i2c-io
 
-![](https://github.com/mdlougheed/I2C-IO-Stepper/Photos/9747011606179709662.jpg)
+![](Photos/9747011606179709662.jpg)
 ----------
 ## I2C Code Interface ##
 The device appears on the I2C bus at the default address of <0x7d>.  This address is selectable at compile time in the #defines at the top of the I2C_Stepper code.
