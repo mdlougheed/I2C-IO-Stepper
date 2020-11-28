@@ -26,8 +26,11 @@ I2C Read:
 	<St><R+7-bit I2C ADDR><A><Status Register Read><A><Sp>
 
 A read cycle consists of addressing the device and requesting 1 byte of data.  Only the status register is returned.
+
 ----------
-There are 5 registers.
+## Registers ##
+
+There are 5, 8-bit registers.
 
 	<------------ 8 bits ------------>
 	.msb                          lsb.
